@@ -1,6 +1,4 @@
-import STRIPE_KEYS from "./stripe-keys.js";
 
-// console.log(STRIPE_KEYS);
 const d = document,
   $product = d.getElementById("products"),
   $template = d.getElementById("product-template").content,
