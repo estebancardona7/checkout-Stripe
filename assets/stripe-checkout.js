@@ -62,8 +62,8 @@ d.addEventListener("click", (e) => {
         lineItems: [{ price, quantity: 1 }],
         mode: ["subscription", "payment"],
         successUrl:
-          "http://127.0.0.1:5500/ajax-ejercicios/assets/stripe-success.html",
-        cancelUrl: "http://127.0.0.1:5500/ajax-ejercicios/stripe-checkout.html",
+          "https://github.com/estebancardona7/checkout-Stripe/blob/a550bcd2e2bcffd47ae6020548dd53817f5714eb/assets/stripe-success.html",
+        cancelUrl: "https://estebancardona.netlify.app/",
       })
       .then((res) => {
         if (res.error) {
@@ -74,8 +74,8 @@ d.addEventListener("click", (e) => {
       lineItems: [{ price, quantity: 1 }],
       mode: "payment",
       successUrl:
-        "http://127.0.0.1:5500/ajax-ejercicios/assets/stripe-success.html",
-      cancelUrl: "http://127.0.0.1:5500/ajax-ejercicios/stripe-checkout.html",
+        "https://github.com/estebancardona7/checkout-Stripe/blob/a550bcd2e2bcffd47ae6020548dd53817f5714eb/assets/stripe-success.html",
+      cancelUrl: "https://estebancardona.netlify.app/",
     });
   }
 });
